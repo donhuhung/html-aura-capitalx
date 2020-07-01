@@ -127,6 +127,14 @@ ul {
     margin-right: 50px !important;
 }
 
+.col-20 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    flex: 1 1 19%;
+    max-width: 19%;
+}
+
 .a-card {
     display: flex;
     flex-direction: column;
@@ -289,6 +297,10 @@ ul {
 
 .text-grey {
     color: #d0d0d0;
+}
+
+.w-85 {
+    width: 85% !important;
 }
 
 #footer-menu {

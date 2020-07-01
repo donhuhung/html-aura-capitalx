@@ -17,18 +17,13 @@
         }
 
         #banner-header {
-            .bg-image {
-                width: 100%;
-                height: 700px;
-                background-image: url(../images/img_bg-3.png);
-                background-repeat: no-repeat;
-                background-position: top right;
-                background-size: 85%;
-            }
-            .banner-text {
-                position: absolute;
-                left: 0;
-                top: 210px;
+            #carouselExampleIndicators {
+                .custom-indicator {
+                    margin: 0 0 0 15px;
+                    justify-content: left;
+                    top: 200px;
+                    left: -28px
+                }
                 .circle {
                     background: #163dd6;
                     width: 16px;
@@ -37,10 +32,17 @@
                     margin-right: 5px;
                     border-radius: 100%;
                     display: inline-block;
+                    cursor: pointer;
                 }
                 .active {
                     background: #6bcbfe;
                 }
+            }
+            .banner-text {
+                position: absolute;
+                left: 0;
+                top: 210px;
+                
             }
 
             .ribbon {
@@ -68,7 +70,7 @@
                 overflow-x: hidden;
                 span {
                     will-change: transform;
-                    animation: marquee 15s linear infinite;
+                    animation: marquee 5s linear infinite;
                 }
             }
             .triangle {
@@ -196,30 +198,37 @@
             }
         }
 
-        .circle {
-            background: #282d40;
-            width: 18px;
-            height: 18px;
-            border-radius: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 5px;
-            .center {
-                background: #282d40;
-                width: 8px;
-                height: 8px;
-                border-radius: 100%;
-            }
-        }
+        #carouselIndicators {
+            margin-bottom: 80px;
+            .carousel-indicators {
+                margin: 0;
+                bottom: -70px;
+                .circle {
+                    background: #282d40;
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 5px;
+                    .center {
+                        background: #282d40;
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 100%;
+                    }
+                }
 
-        .active {
-            background: #fff;
-            width: 18px;
-            height: 18px;
-            border-radius: 100%;
-            padding: 4px;
-            border: 1px solid #282d40;
+                .active {
+                    background: #fff;
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 100%;
+                    padding: 4px;
+                    border: 1px solid #282d40;
+                }
+            }
         }
     }
 }
