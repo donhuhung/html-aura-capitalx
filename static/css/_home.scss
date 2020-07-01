@@ -1,0 +1,463 @@
+.home-page {
+    font-family: $font_family_Corsa_Grotesk_VN_Bold;
+    #top-header {
+        margin: 10px 0 0;
+    }
+
+    #header {
+        overflow: hidden;
+        background: #fff;
+        #banner-header {
+            background-image: url('../images/img_bg-header.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            display: block;
+            position: relative;
+            height: 675px;
+
+            .cover-banner-bottom-overlay {
+                display: block;
+                width: 100%;
+                height: 425px;
+                background: linear-gradient(to bottom, transparent, #fff);
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                
+                .custom-banner {
+                    display: block;
+                    width: 100%;
+                    height: 425px;
+                    .cover-text-box {
+                        position: absolute;
+                        left: 15px;
+                        bottom: 0;
+                        width: 273px;
+                    }
+                }
+            }
+        }
+        .ribbon-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            background: linear-gradient(to right, #0045FF, #ABE6ED);
+            transform: rotate(-9deg);
+            position: absolute;
+            left: -100px;
+            right: -100px;
+            top: 775px;
+            padding: 0px 0;
+            z-index: 10;
+            .text {
+                font-size: 64px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: scaleX(1.6);
+            }
+            .custom-text {
+                color: $color_white;
+                font-size: 40px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+        .ribbon-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            transform: rotate(-25deg);
+            position: absolute;
+            left: -300px;
+            right: -300px;
+            top: 850px;
+            padding: 50px 0;
+            z-index: 9;
+            background-image: url('../images/Logo_Capitalx.png'), linear-gradient(to right, #E1E2E5, #F5F6F7);
+            background-repeat-x: repeat;
+            background-repeat-y: no-repeat;
+            background-position: center;
+            .text {
+                font-size: 50px;
+            }
+        }
+    }
+
+    #book-section {
+        .ceo-book {
+            display: flex;
+            margin-top: 160px;
+            width: 500px;
+            padding: 10px 0;
+            border: solid 3px transparent;
+            background: #fff;
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                top: -3px; right: 0; bottom: -3px; left: 0;
+                z-index: -1;
+                margin-top: -3px ;
+                margin-bottom: -3px ;
+                border-radius: inherit;
+                background: linear-gradient(to right, #0045FF, #ABE6ED);
+            }
+
+            .day-left {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: 20px;
+                h4 {
+                    font-size: 50px;
+                    color: #f1f1f1;
+                    span {
+                        position: absolute;
+                        font-size: 14px;
+                        top: 63%;
+                        left: -22px;
+                        z-index: 1;
+                        color: #999999;
+                        display: block;
+                    }
+                }
+            }
+            .avatar-ceo {
+                margin-right: 20px;
+            }
+            .text-cover {
+                flex: 1 1 100%;
+                .bottom-text {
+                    display: flex;
+                    justify-content: left;
+                    align-items: baseline;
+                    font-size: 12px;
+                    .left-box, .right-box {
+                        display: flex;
+                        justify-content: left;
+                        align-items: baseline;
+                    }
+                    .left-box {
+                        margin-right: 20px;
+                    }
+                }
+            }
+            .book-cover {
+                position: absolute;
+                right: 25px;
+                bottom: -53px;
+                width: 115px;
+                text-align: center;
+                .book-btn {
+                    background: linear-gradient(to right, #0045FF, #ABE6ED);
+                    border-radius: 50px;
+                    position: relative;
+                    padding: 3px;
+                    text-align: center;
+                    cursor: pointer;
+                    .btn-border {
+                        background: #fff;
+                        border-radius: 50px;
+                        padding: 10px;
+                    }
+                }
+                .book-btn:hover {
+                    .btn-border {
+                        background: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    #action-section {
+        margin-top: 70px;
+        padding: 10px  0;
+        .action {
+            margin-left: 30px;
+            text-align: right;
+            h4 {
+                font-size: 40px;
+            }
+        }
+
+        .value-text {
+            max-width: 500px;
+        }
+        .row-part {
+            .part-cover {
+                display: flex;
+                .part-left {
+                    width: 30%;
+                    float: left;
+                }
+                .part-right {
+                    width: 60%;
+                    display: flex;
+                    justify-content: right;
+                    align-items: center;
+                    img {
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
+        .row-part-reverse {
+            .part-cover {
+                .part-left {
+                    width: 40%;
+                    float: left;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                }
+                .part-right {
+                    width: 30%;
+                    float: left;
+                    margin-left: 90px;
+                }
+            }
+        }
+    }
+
+    #tin-tuc-su-kien {
+        background-image: url('../images/img-bg-tin-tuc.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        display: block;
+        position: relative;
+        height: 675px;
+        .cover-banner-bottom-overlay {
+            display: block;
+            width: 100%;
+            height: 425px;
+            background: linear-gradient(to bottom, transparent, #fff);
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            .card-tin-tuc {
+                display: block;
+                position: relative;
+                width: 280px;
+                .bg-arraw{
+                    position: relative;
+                    display: block;
+                    background: #0044FF;
+                    width: 80px;
+                    height: 300px;
+                    border-radius: 10px;
+                    margin-left: auto;
+                    margin-right: 0;
+                    .arrow-triangle {
+                        position: absolute;
+                        background-color: #0044FF;
+                        margin-left: auto;
+                        margin-right: 10px;
+                        margin-top: -15px;
+                        top: 50%;
+                    }
+                    .arrow-triangle:before,
+                    .arrow-triangle:after {
+                        content: '';
+                        position: absolute;
+                        background-color: inherit;
+                    }
+
+                    .arrow-triangle,
+                    .arrow-triangle:before,
+                    .arrow-triangle:after {
+                        width:  4em;
+                        height: 4em;
+                        border-top-right-radius: 30%;
+                    }
+                    .arrow-triangle.right {
+                        transform: rotate(30deg) skewX(-30deg) scale(1,.866) translateY(-50%);
+                    }
+                }
+                .card-image {
+                    background-size: 60%;
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-color: #fff;
+                    width: 230px;
+                    height: 250px;
+                    position: absolute;
+                    bottom: 10px;
+                    right: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+                .card-image-1 {
+                    background-image: url(../images/img_news_1.png);
+                    img {
+                        position: absolute;
+                        top: 25px;
+                        right: 30px;
+                    }
+                }
+                .card-image-2 {
+                    background-image: url(../images/img_news_2.png);
+                    img {
+                        position: absolute;
+                        top: 25px;
+                        right: 17px;
+                    }
+                }
+                .card-image-3 {
+                    background-image: url(../images/img_news_3.png);
+                    img {
+                        position: absolute;
+                        top: 25px;
+                        right: 30px;
+                    }
+                }
+            }
+
+            .seach-filter {
+                width: 80%;
+                background: #f9f9f9;
+                padding: 15px;
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                max-width: 1140px;
+                
+                .search-box {
+                    border: 0;
+                    border-bottom: 1px solid #ccc;
+                    width: 100%;
+                    padding: 10px;
+                    background: #f9f9f9;
+                }
+                .search-box:focus {
+                    outline: 0;
+                }
+
+                .select-sort {
+                    padding: 10px;
+                    border: 0;
+                    background: #ECECEC;
+                }
+                .select-sort:focus {
+                    outline: 0;
+                }
+            }
+        }
+    }
+
+    #listing-section {
+        .listing-cover {
+            width: 80%;
+            background: #fff;
+            padding: 10px;
+            margin: auto;
+
+            .circle-number {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 24px;
+                height: 24px;
+                border-radius: 100%;
+                color: #fff;
+                font-size: 12px;
+            }
+            .circle-blue {
+                background: #0045FF;
+            }
+            .circle-grey {
+                background: #808080;
+            }
+
+            .content-center {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+                .date, .avatar {
+                    margin-right: 15px;
+                }
+                .date {
+                    h4 {
+                        font-size: 50px;
+                        color: #f1f1f1;
+                        span {
+                            position: absolute;
+                            font-size: 14px;
+                            top: 67%;
+                            left: -10px;
+                            z-index: 1;
+                            color: #999999;
+                            display: block;
+                        }
+                    }
+                }
+                .content-detail {
+                    flex: 1 1 100%;
+                    .bottom-text {
+                        display: flex;
+                        justify-content: left;
+                        align-items: baseline;
+                        font-size: 12px;
+                        .left-box, .right-box {
+                            display: flex;
+                            justify-content: left;
+                            align-items: baseline;
+                        }
+                        .left-box {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+
+            .book-btn {
+                background: linear-gradient(to right, #0045FF, #ABE6ED);
+                border-radius: 50px;
+                position: relative;
+                padding: 3px;
+                text-align: center;
+                cursor: pointer;
+                .btn-border {
+                    background: #fff;
+                    border-radius: 50px;
+                    padding: 10px;
+                }
+            }
+            .book-btn:hover {
+                .btn-border {
+                    background: transparent;
+                }
+            }
+
+            .disabled {
+                opacity: 0.3;
+                .book-btn {
+                    background: linear-gradient(to right, #b6b6b6, #dedede);
+                    .btn-border {
+                        background: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    #doi-tac {
+        .doi-tac-text {
+            width: 80%;
+            background: #fff;
+            padding: 10px;
+            margin: auto;
+        }
+    }
+
+}
