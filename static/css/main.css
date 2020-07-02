@@ -820,6 +820,9 @@ ul {
 .page3-page #header #top-header .top-logo-cover img {
   width: 172px;
 }
+.page3-page #header #banner-header #carouselExampleIndicators .carousel-inner {
+  overflow: unset;
+}
 .page3-page #header #banner-header #carouselExampleIndicators .custom-indicator {
   margin: 0 0 0 15px;
   justify-content: left;
@@ -843,6 +846,9 @@ ul {
   position: absolute;
   left: 0;
   top: 210px;
+}
+.page3-page #header #banner-header .banner-text h2 {
+  font-size: 3.2rem;
 }
 .page3-page #header #banner-header .ribbon {
   display: flex;
@@ -871,6 +877,7 @@ ul {
   color: #000;
   font-size: 42px;
   overflow-x: hidden;
+  white-space: nowrap;
 }
 .page3-page #header #banner-header .ribbon span {
   will-change: transform;

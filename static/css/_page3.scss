@@ -18,6 +18,9 @@
 
         #banner-header {
             #carouselExampleIndicators {
+                .carousel-inner {
+                    overflow: unset;
+                }
                 .custom-indicator {
                     margin: 0 0 0 15px;
                     justify-content: left;
@@ -42,7 +45,9 @@
                 position: absolute;
                 left: 0;
                 top: 210px;
-                
+                h2 {
+                    font-size: 3.2rem;
+                }
             }
 
             .ribbon {
@@ -68,6 +73,7 @@
                 color: #000;
                 font-size: 42px;
                 overflow-x: hidden;
+                white-space: nowrap;
                 span {
                     will-change: transform;
                     animation: marquee 5s linear infinite;
