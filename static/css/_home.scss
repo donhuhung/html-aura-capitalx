@@ -1,9 +1,6 @@
 .home-page {
     font-family: $font_family_Corsa_Grotesk_VN_Bold;
-    #top-header {
-        margin: 10px 0 0;
-    }
-
+    
     #header {
         overflow: hidden;
         background: #fff;
@@ -77,7 +74,7 @@
             top: 850px;
             padding: 50px 0;
             z-index: 9;
-            background-image: url('../images/Logo_Capitalx.png'), linear-gradient(to right, #E1E2E5, #F5F6F7);
+            background-image: url('../images/capitalx-logo-xeo.png'), linear-gradient(to right, #E1E2E5, #F5F6F7);
             background-repeat-x: repeat;
             background-repeat-y: no-repeat;
             background-position: center;

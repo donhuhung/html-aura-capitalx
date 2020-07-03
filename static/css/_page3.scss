@@ -17,29 +17,31 @@
         }
 
         #banner-header {
-            #carouselExampleIndicators {
-                .carousel-inner {
-                    overflow: unset;
+            .owl-theme .owl-dots .owl-dot {
+                background: #163dd6;
+                width: 16px;
+                 height: 16px;
+                margin-left: 5px;
+                margin-right: 5px;
+                border-radius: 100%;
+                display: inline-block;
+                cursor: pointer;
+                span {
+                    display: none;
                 }
-                .custom-indicator {
-                    margin: 0 0 0 15px;
-                    justify-content: left;
-                    top: 200px;
-                    left: -28px
+                &:focus {
+                    outline: 0;
                 }
-                .circle {
-                    background: #163dd6;
-                    width: 16px;
-                    height: 16px;
-                    margin-left: 5px;
-                    margin-right: 5px;
-                    border-radius: 100%;
-                    display: inline-block;
-                    cursor: pointer;
-                }
-                .active {
-                    background: #6bcbfe;
-                }
+            }
+            .owl-theme .owl-dots .active {
+                background: #6bcbfe;
+            }
+            .owl-theme .owl-dots {
+                position: absolute;
+                margin: 0 0 0 15px;
+                justify-content: left;
+                top: 200px;
+                left: 15px;
             }
             .banner-text {
                 position: absolute;

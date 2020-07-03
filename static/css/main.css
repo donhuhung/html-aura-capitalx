@@ -66,7 +66,7 @@ ul {
   width: 90%;
   margin: auto;
   position: relative;
-  padding: 5px 25px;
+  padding: 5px 20px;
   color: #0045FF;
   background: #fff;
   background-clip: padding-box;
@@ -345,6 +345,10 @@ ul {
   width: 85% !important;
 }
 
+.page-primary #top-header {
+  margin: 10px 0 0;
+}
+
 #footer-menu .cover-menu {
   width: 80%;
   background: #fff;
@@ -379,9 +383,6 @@ ul {
 
 .home-page {
   font-family: "Corsa Grotesk VN Bold";
-}
-.home-page #top-header {
-  margin: 10px 0 0;
 }
 .home-page #header {
   overflow: hidden;
@@ -455,7 +456,7 @@ ul {
   top: 850px;
   padding: 50px 0;
   z-index: 9;
-  background-image: url("../images/Logo_Capitalx.png"), linear-gradient(to right, #E1E2E5, #F5F6F7);
+  background-image: url("../images/capitalx-logo-xeo.png"), linear-gradient(to right, #E1E2E5, #F5F6F7);
   background-repeat-x: repeat;
   background-repeat-y: no-repeat;
   background-position: center;
@@ -820,16 +821,7 @@ ul {
 .page3-page #header #top-header .top-logo-cover img {
   width: 172px;
 }
-.page3-page #header #banner-header #carouselExampleIndicators .carousel-inner {
-  overflow: unset;
-}
-.page3-page #header #banner-header #carouselExampleIndicators .custom-indicator {
-  margin: 0 0 0 15px;
-  justify-content: left;
-  top: 200px;
-  left: -28px;
-}
-.page3-page #header #banner-header #carouselExampleIndicators .circle {
+.page3-page #header #banner-header .owl-theme .owl-dots .owl-dot {
   background: #163dd6;
   width: 16px;
   height: 16px;
@@ -839,8 +831,21 @@ ul {
   display: inline-block;
   cursor: pointer;
 }
-.page3-page #header #banner-header #carouselExampleIndicators .active {
+.page3-page #header #banner-header .owl-theme .owl-dots .owl-dot span {
+  display: none;
+}
+.page3-page #header #banner-header .owl-theme .owl-dots .owl-dot:focus {
+  outline: 0;
+}
+.page3-page #header #banner-header .owl-theme .owl-dots .active {
   background: #6bcbfe;
+}
+.page3-page #header #banner-header .owl-theme .owl-dots {
+  position: absolute;
+  margin: 0 0 0 15px;
+  justify-content: left;
+  top: 200px;
+  left: 15px;
 }
 .page3-page #header #banner-header .banner-text {
   position: absolute;
@@ -1022,6 +1027,53 @@ ul {
   border-radius: 100%;
   padding: 4px;
   border: 1px solid #282d40;
+}
+
+.page1-page {
+  font-family: "FivoSansVN-Regular";
+}
+.page1-page #header .image-cover img {
+  width: 95%;
+}
+.page1-page #content {
+  display: block;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.page1-page #content .row-part .part-cover {
+  display: flex;
+}
+.page1-page #content .row-part .part-cover .part-left {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.page1-page #content .row-part .part-cover .part-left img {
+  margin-left: auto;
+}
+.page1-page #content .row-part .part-cover .part-right {
+  width: 50%;
+}
+.page1-page #content .row-part-reverse .part-cover {
+  display: flex;
+}
+.page1-page #content .row-part-reverse .part-cover .part-left {
+  width: 50%;
+  margin-left: auto;
+}
+.page1-page #content .row-part-reverse .part-cover .part-right {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.page1-page #content .row-part-reverse .part-cover .part-right img {
+  margin-right: auto;
+}
+.page1-page .bg-image {
+  background-image: url("../images/bg.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=main.css.map */

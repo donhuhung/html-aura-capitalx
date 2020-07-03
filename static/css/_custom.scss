@@ -46,7 +46,7 @@ ul {
     width: 90%;
     margin: auto;
     position: relative;
-    padding: 5px 25px;
+    padding: 5px 20px;
     color: #0045FF;
     background: #fff;
     background-clip: padding-box;
@@ -301,6 +301,16 @@ ul {
 
 .w-85 {
     width: 85% !important;
+}
+
+.page-primary {
+    #top-header {
+        margin: 10px 0 0;
+    }
+}
+
+.page-secondary {
+    
 }
 
 #footer-menu {

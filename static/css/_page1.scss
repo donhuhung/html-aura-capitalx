@@ -1,0 +1,56 @@
+.page1-page {
+    font-family: $font_family_FivoSansVN_Regular;
+    #header {
+        .image-cover {
+            img {
+                width: 95%;
+            }
+        }
+    }
+
+    #content {
+        display: block;
+        width: 100%;
+        padding-bottom: 50px;
+        .row-part {
+            .part-cover {
+                display: flex;
+                .part-left {
+                    display: flex;
+                    justify-content: right;
+                    align-items: center;
+                    img {
+                        margin-left: auto;
+                    }
+                }
+                .part-right {
+                    width: 50%;
+                }
+            }
+        }
+        .row-part-reverse {
+            .part-cover {
+                display: flex;
+                .part-left {
+                    width: 50%;
+                    margin-left: auto;
+                }
+                .part-right {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    img {
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .bg-image {
+        background-image: url('../images/bg.png');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
