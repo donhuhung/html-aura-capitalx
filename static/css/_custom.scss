@@ -40,6 +40,14 @@ ul {
     color: #b7c0eb;
 }
 
+.text-grey {
+    color: #d0d0d0;
+}
+
+.text-blue {
+    color: #0045FF !important;
+}
+
 .border-radius-gradient {
     display: flex;
     align-items: center;
@@ -293,10 +301,6 @@ ul {
 
 .border-top-4 {
     border-top: 4px solid #000;
-}
-
-.text-grey {
-    color: #d0d0d0;
 }
 
 .w-85 {
