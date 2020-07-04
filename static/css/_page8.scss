@@ -1,0 +1,94 @@
+.page8-page {
+    .center-part {
+        padding: 100px 0px 50px;
+        img {
+            width: 88%;
+        }
+        .ribbon-top-left {
+            position: absolute;
+            background: #9eeaf7;
+            top: 0px;
+            left: 0px;
+            width: 240px;
+            height: 850px;
+            opacity: .9;
+            padding-top: 30px;
+            padding-left: 30px;
+            .text-at-bottom {
+                position: absolute;
+                bottom: 30px;
+                left: 20px;
+                font-size: 30px;
+                color: #fff;
+                padding-right: 20px;
+            }
+        }
+    }
+
+    #content {
+        input {
+            border: 0;
+            color: #000;
+            width: 100%;
+            padding: 15px 5px;
+        }
+
+        input:focus {
+            outline: 0;
+            border: 0;
+        }
+
+        input[type=radio] {
+            display: inline-block;
+        }
+
+        .book-btn {
+            background: linear-gradient(to left, #0045FF, #ABE6ED);
+            border-radius: 50px;
+            position: relative;
+            padding: 7px 45px;
+            text-align: center;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: 0;
+        }
+        .book-btn:hover {
+            .btn-border {
+                background: transparent;
+            }
+        }
+
+        .hoi-thao-box-cover {
+            .box-cover {
+                padding: 20px;
+                background: #3a6cf1;
+                color: #fff;
+            }
+            .box-below-cover {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 15px 5px;
+                .left-cover {
+                    text-align: right;
+                    * {
+                        margin: 0;
+                    }
+                }
+                .circle {
+                    width: 50px;
+                    height: 50px;
+                    display: block;
+                    border-radius: 100%;
+                    margin-left: 15px;
+                }
+                .circle-pink {
+                    background: #fddcd7;
+                }
+                .circle-blue {
+                    background: #016ef1;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,169 @@
+.page7-page {
+    .left-part, .right-part {
+        padding: 100px 0px;
+        img {
+            width: 100%;
+        }
+        .ribbon-top-left {
+            position: absolute;
+            background: #9eeaf7;
+            top: 0px;
+            left: 0px;
+            width: 190px;
+            height: 154px;
+            opacity: 0.9;
+            padding: 25px;
+            .text-at-center {
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+    }
+    .center-part {
+        padding: 100px 0px;
+        img {
+            width: 88%;
+        }
+        .ribbon-top-left {
+            position: absolute;
+            background: #9eeaf7;
+            top: 0px;
+            left: 0px;
+            width: 240px;
+            height: 100%;
+            opacity: .9;
+            padding-top: 30px;
+            padding-left: 30px;
+            .text-at-top {
+                color: #124da7;
+            }
+            .text-at-bottom {
+                position: absolute;
+                bottom: 30px;
+                left: 20px;
+                font-size: 30px;
+                color: #fff;
+                padding-right: 20px;
+            }
+        }
+    }
+
+    #content {
+        .seach-filter {
+            background: #f9f9f9;
+            padding: 15px;
+            
+            .search-box {
+                border: 0;
+                border-bottom: 1px solid #ccc;
+                width: 100%;
+                padding: 10px;
+                background: #f9f9f9;
+            }
+            .search-box:focus {
+                outline: 0;
+            }
+
+            .select-sort {
+                padding: 10px;
+                border: 0;
+                background: #ECECEC;
+            }
+            .select-sort:focus {
+                outline: 0;
+            }
+        }
+        .listing-cover {
+            background: #fff;
+            padding: 10px;
+
+            .circle-number {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 24px;
+                height: 24px;
+                border-radius: 100%;
+                color: #fff;
+                font-size: 12px;
+            }
+            .circle-blue {
+                background: #0045FF;
+            }
+            .circle-grey {
+                background: #808080;
+            }
+
+            .content-center {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+                .date, .avatar {
+                    margin-right: 15px;
+                }
+                .date {
+                    h4 {
+                        font-size: 50px;
+                        color: #f1f1f1;
+                        span {
+                            position: absolute;
+                            font-size: 14px;
+                            top: 67%;
+                            left: -10px;
+                            z-index: 1;
+                            color: #999999;
+                            display: block;
+                        }
+                    }
+                }
+                .content-detail {
+                    flex: 1 1 100%;
+                    .bottom-text {
+                        display: flex;
+                        justify-content: left;
+                        align-items: baseline;
+                        font-size: 12px;
+                        .left-box, .right-box {
+                            display: flex;
+                            justify-content: left;
+                            align-items: baseline;
+                        }
+                        .left-box {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+
+            .book-btn {
+                background: linear-gradient(to right, #0045FF, #ABE6ED);
+                border-radius: 50px;
+                position: relative;
+                padding: 3px;
+                text-align: center;
+                cursor: pointer;
+                .btn-border {
+                    background: #fff;
+                    border-radius: 50px;
+                    padding: 10px;
+                }
+            }
+            .book-btn:hover {
+                .btn-border {
+                    background: transparent;
+                }
+            }
+
+            .disabled {
+                opacity: 0.3;
+                .book-btn {
+                    background: linear-gradient(to right, #b6b6b6, #dedede);
+                    .btn-border {
+                        background: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
