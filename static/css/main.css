@@ -1203,7 +1203,7 @@ ul {
 }
 .page7-page .left-part .ribbon-top-left .text-at-center, .page7-page .right-part .ribbon-top-left .text-at-center {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
 }
 .page7-page .center-part {
   padding: 100px 0px;
@@ -1350,8 +1350,8 @@ ul {
   background: #9eeaf7;
   top: 0px;
   left: 0px;
-  width: 240px;
-  height: 850px;
+  width: 246px;
+  height: 680px;
   opacity: 0.9;
   padding-top: 30px;
   padding-left: 30px;
@@ -1360,7 +1360,7 @@ ul {
   position: absolute;
   bottom: 30px;
   left: 20px;
-  font-size: 30px;
+  font-size: 34px;
   color: #fff;
   padding-right: 20px;
 }
