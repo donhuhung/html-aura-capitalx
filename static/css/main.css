@@ -885,6 +885,9 @@ ul {
 .page3-page #header #top-header .top-logo-cover img {
   width: 172px;
 }
+.page3-page #header #banner-header .owl-theme .owl-item {
+  animation-duration: 2s;
+}
 .page3-page #header #banner-header .owl-theme .owl-dots .owl-dot {
   background: #163dd6;
   width: 16px;
@@ -948,9 +951,18 @@ ul {
   overflow-x: hidden;
   white-space: nowrap;
 }
-.page3-page #header #banner-header .ribbon span {
-  will-change: transform;
-  animation: marquee 5s linear infinite;
+.page3-page #header #banner-header .ribbon #maindiv {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.page3-page #header #banner-header .ribbon #div1 {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+.page3-page #header #banner-header .ribbon #div2 {
+  display: inline-block;
+  animation: marquee2 10s linear infinite;
+  animation-delay: 5s;
 }
 .page3-page #header #banner-header .triangle {
   background-image: linear-gradient(to right top, white 0%, white 50%, transparent 50%);
@@ -962,10 +974,18 @@ ul {
 }
 @keyframes marquee {
   from {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
+  }
+}
+@keyframes marquee2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-200%);
   }
 }
 .page3-page #content .bg-image {

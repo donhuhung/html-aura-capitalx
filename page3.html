@@ -204,7 +204,12 @@
                     </div>
                   </div>
             </div>
-            <div class="ribbon"><span>Everything begins with an idea. Everything begins with an idea. Everything begins with an idea. Everything begins with an idea.</span></div>
+            <div class="ribbon">
+                <div id="mainDiv">
+                    <div id="div1">&nbsp;Everything begins with an idea. Everything begins with an idea.</div>
+                    <div id="div2">&nbsp;Everything begins with an idea. Everything begins with an idea.</div>
+                </div>
+            </div>
             <div class="triangle"></div>
         </section>
     </section>
@@ -554,6 +559,7 @@
 <script src="./static/js/owl.carousel.min.js"></script>
 <script>
     $(document).ready(function(){
+        $('#mainDiv').width($('#div1').width());
         $(".owl-carousel").owlCarousel({
             // animateOut: 'animate__fadeInRight',
             animateIn: 'animate__flipInY',
