@@ -51,10 +51,8 @@ ul {
 .border-radius-gradient {
     display: flex;
     align-items: center;
-    width: 90%;
-    margin: auto;
     position: relative;
-    padding: 5px 20px;
+    padding: 0 5px;
     color: #0045FF;
     background: #fff;
     background-clip: padding-box;
@@ -89,6 +87,10 @@ ul {
 
 .font-10 {
     font-size: 10px;
+}
+
+.font-11 {
+    font-size: 11px;
 }
 
 .font-12 {
@@ -361,10 +363,80 @@ ul {
     background: #f2f2f2;
   }
 
-.page-primary {
+.page-primary, .page-secondary {
     #top-header {
         margin: 10px 0 0;
+        font-family: $font_family_FivoSansVN_Regular;
+        .custom-lichct {
+            padding: 5px 15px !important;
+        }
+        a {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            position: relative;
+            padding: 5px 10px;
+            border: solid $border transparent;
+            border-radius: 25px;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0; right: 0; bottom: 0; left: 0;
+                z-index: -1;
+                margin: -$border;
+                border-radius: inherit;
+                background: transparent;
+            }
+        }
+        .border-gradient {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            position: relative;
+            padding: 5px 10px;
+            color: #0045FF;
+            background: #fff;
+            background-clip: padding-box;
+            border: solid $border transparent;
+            border-radius: 25px;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0; right: 0; bottom: 0; left: 0;
+                z-index: -1;
+                margin: -$border;
+                border-radius: inherit;
+                background: linear-gradient(to right, #0045FF, #ABE6ED);
+            }
+        }
+        a:hover {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            position: relative;
+            padding: 5px 10px;
+            color: #0045FF;
+            background: #fff;
+            background-clip: padding-box;
+            border: solid $border transparent;
+            border-radius: 25px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0; right: 0; bottom: 0; left: 0;
+                z-index: -1;
+                margin: -$border;
+                border-radius: inherit;
+                background: linear-gradient(to right, #0045FF, #ABE6ED);
+            }
+        }
     }
+}
+
+.page-primary {
+
 }
 
 .page-secondary {

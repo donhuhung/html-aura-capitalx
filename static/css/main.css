@@ -71,10 +71,8 @@ ul {
 .border-radius-gradient {
   display: flex;
   align-items: center;
-  width: 90%;
-  margin: auto;
   position: relative;
-  padding: 5px 20px;
+  padding: 0 5px;
   color: #0045FF;
   background: #fff;
   background-clip: padding-box;
@@ -111,6 +109,10 @@ ul {
 
 .font-10 {
   font-size: 10px;
+}
+
+.font-11 {
+  font-size: 11px;
 }
 
 .font-12 {
@@ -409,8 +411,82 @@ ul {
   background: #f2f2f2;
 }
 
-.page-primary #top-header {
+.page-primary #top-header, .page-secondary #top-header {
   margin: 10px 0 0;
+  font-family: "FivoSansVN-Regular";
+}
+.page-primary #top-header .custom-lichct, .page-secondary #top-header .custom-lichct {
+  padding: 5px 15px !important;
+}
+.page-primary #top-header a, .page-secondary #top-header a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  position: relative;
+  padding: 5px 10px;
+  border: solid 1px transparent;
+  border-radius: 25px;
+}
+.page-primary #top-header a:before, .page-secondary #top-header a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: transparent;
+}
+.page-primary #top-header .border-gradient, .page-secondary #top-header .border-gradient {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  position: relative;
+  padding: 5px 10px;
+  color: #0045FF;
+  background: #fff;
+  background-clip: padding-box;
+  border: solid 1px transparent;
+  border-radius: 25px;
+}
+.page-primary #top-header .border-gradient:before, .page-secondary #top-header .border-gradient:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: linear-gradient(to right, #0045FF, #ABE6ED);
+}
+.page-primary #top-header a:hover, .page-secondary #top-header a:hover {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  position: relative;
+  padding: 5px 10px;
+  color: #0045FF;
+  background: #fff;
+  background-clip: padding-box;
+  border: solid 1px transparent;
+  border-radius: 25px;
+}
+.page-primary #top-header a:hover:before, .page-secondary #top-header a:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: linear-gradient(to right, #0045FF, #ABE6ED);
 }
 
 #footer-menu .cover-menu {
@@ -494,6 +570,8 @@ ul {
   top: 775px;
   padding: 0px 0;
   z-index: 10;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
 .home-page #header .ribbon-1 .text {
   font-size: 64px;
@@ -507,6 +585,19 @@ ul {
   font-size: 40px;
   margin-left: 5px;
   margin-right: 5px;
+}
+.home-page #header .ribbon-1 #maindiv {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.home-page #header .ribbon-1 #div1 {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+.home-page #header .ribbon-1 #div2 {
+  display: inline-block;
+  animation: marquee2 10s linear infinite;
+  animation-delay: 5s;
 }
 .home-page #header .ribbon-2 {
   display: flex;
@@ -527,6 +618,22 @@ ul {
 }
 .home-page #header .ribbon-2 .text {
   font-size: 50px;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes marquee2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-200%);
+  }
 }
 .home-page #book-section .ceo-book {
   display: flex;
