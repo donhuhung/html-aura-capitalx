@@ -444,6 +444,7 @@ ul {
 }
 
 #footer-menu {
+    font-family: $font_family_FivoSansVN_Regular;
     .cover-menu {
         width: 80%;
         background: #fff;
@@ -453,15 +454,16 @@ ul {
 }
 
 #footer {
+    font-family: $font_family_FivoSansVN_Regular;
     background: #F2F2F2;
     .logo-cover {
         img {
-            width: 180px;
+            width: 100%;
         }
     }
     .email-subscribe {
         border: 0;
-        padding: 10px;
+        padding: 20px;
         border-radius: unset;
     }
     .email-subscribe:focus, .email-subscribe:active {
@@ -474,8 +476,8 @@ ul {
             border: 0;
             border-radius: unset;
             border-left: 2px solid #eee;
-            padding-left: 25px;
-            padding-right: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
             background: #fff;
         }
     }
