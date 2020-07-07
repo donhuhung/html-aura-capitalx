@@ -559,13 +559,16 @@
         $('#mainDiv').width($('#div1').width());
         $(".owl-carousel").owlCarousel({
             // animateOut: 'animate__fadeInRight',
-            animateIn: 'animate__flipInY',
+            animateIn: 'animate__animated animate__fadeInRight',
             items:1,
             margin:30,
             stagePadding:30,
             smartSpeed:450,
             autoplay: true,
-            loop: true
+            autoplayHoverPause: true,
+            loop: true,
+            touchDrag: false,
+            mouseDrag: false
         });
     });
 </script>

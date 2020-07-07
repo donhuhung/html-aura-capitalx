@@ -1025,6 +1025,10 @@ ul {
   top: 200px;
   left: 15px;
 }
+.page3-page #header #banner-header .owl-carousel .animate__fadeInRight .w-85 {
+  animation: rotateIn;
+  animation-duration: 2s;
+}
 .page3-page #header #banner-header .banner-text {
   position: absolute;
   left: 0;

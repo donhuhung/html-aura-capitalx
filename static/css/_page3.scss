@@ -46,6 +46,10 @@
                 top: 200px;
                 left: 15px;
             }
+            .owl-carousel .animate__fadeInRight .w-85 {
+                animation: rotateIn;
+                animation-duration: 2s;
+            }
             .banner-text {
                 position: absolute;
                 left: 0;
