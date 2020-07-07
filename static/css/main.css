@@ -230,7 +230,7 @@ ul {
 }
 
 .medium-card {
-  width: 510px;
+  width: 540px;
   height: 230px;
 }
 
@@ -780,7 +780,7 @@ ul {
 }
 .home-page #action-section .action {
   font-family: "FivoSansVN-Regular";
-  margin-left: 30px;
+  margin-left: 70px;
   text-align: right;
 }
 .home-page #action-section .action h4 {
