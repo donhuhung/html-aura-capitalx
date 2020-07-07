@@ -524,6 +524,9 @@ ul {
   font-family: "FivoSansVN-Regular";
   background: #F2F2F2;
 }
+#footer .p-custom {
+  padding: 74px 50px;
+}
 #footer .logo-cover {
   text-align: right;
 }
@@ -842,7 +845,7 @@ ul {
 .home-page #tin-tuc-su-kien .cover-banner-bottom-overlay {
   display: block;
   width: 100%;
-  height: 450px;
+  height: 510px;
   background: linear-gradient(to bottom, transparent, #fff);
   position: absolute;
   left: 0px;
