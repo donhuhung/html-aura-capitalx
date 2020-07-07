@@ -117,16 +117,24 @@ ul {
     font-size: 30px;
 }
 
+.font-40 {
+    font-size: 40px;
+}
+
 .font-42 {
     font-size: 42px;
+}
+
+.font-48 {
+    font-size: 48px;
 }
 
 .font-50 {
     font-size: 50px;
 }
 
-.ml-170 {
-    margin-left: 170px !important;
+.ml-260 {
+    margin-left: 260px !important;
 }
 
 .ml-100 {
@@ -152,8 +160,8 @@ ul {
 .a-card {
     display: flex;
     flex-direction: column;
-    width: 360px;
-    height: 180px;
+    width: 570px;
+    height: 239px;
     border: 2px solid #000;
     border-radius: 20px;
     .card-title {
@@ -169,14 +177,14 @@ ul {
     }
     .card-content {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex: 1 100%;
         font-size: 50px;
         border-bottom-left-radius: 18px;
         border-bottom-right-radius: 18px;
         a {
-            font-size: 50px;
+            font-size: 70px;
             width: 100%;
             text-align: center;
         }
@@ -193,7 +201,13 @@ ul {
 }
 
 .small-card {
-    width: 300px;
+    width: 400px;
+    height: 230px;
+}
+
+.medium-card {
+    width: 510px;
+    height: 230px;
 }
 
 .bg-gradient {
@@ -282,13 +296,6 @@ ul {
 
 .text-decoration-underline {
     text-decoration: underline;
-}
-
-@media (min-width: 1200px) {
-    .custom-container {
-        max-width: 1360px;
-        margin: auto;
-    }
 }
 
 .headline {
@@ -472,8 +479,9 @@ ul {
     font-family: $font_family_FivoSansVN_Regular;
     background: #F2F2F2;
     .logo-cover {
+        text-align: right;
         img {
-            width: 100%;
+            width: 308px;
         }
     }
     .email-subscribe {
@@ -495,5 +503,18 @@ ul {
             padding-right: 10px;
             background: #fff;
         }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1368px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .custom-container {
+        max-width: 1568px;
+        margin: auto;
     }
 }
