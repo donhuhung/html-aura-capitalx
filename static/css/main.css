@@ -208,6 +208,13 @@ ul {
   width: 100%;
   text-align: center;
 }
+.a-card .display-hover {
+  display: none;
+}
+
+.a-card:hover .display-hover {
+  display: flex;
+}
 
 .small-card {
   width: 300px;

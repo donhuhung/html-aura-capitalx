@@ -181,6 +181,15 @@ ul {
             text-align: center;
         }
     }
+    .display-hover {
+        display: none;
+    }
+}
+
+.a-card:hover {
+    .display-hover {
+        display: flex;
+    }
 }
 
 .small-card {
