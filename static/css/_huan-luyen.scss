@@ -1,4 +1,4 @@
-.page3-page {
+.huan-luyen-page {
     font-family: $font_family_FivoSansVN_Regular;
     #header {
         background: #205bdd;
@@ -13,6 +13,12 @@
                 img {
                     width: 172px;
                 }
+            }
+            .menu-item {
+                color: #fff;
+            }
+            .menu-item:hover {
+                color: #000;
             }
         }
 
