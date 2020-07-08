@@ -1548,14 +1548,12 @@ ul {
   height: 763px;
 }
 .tu-van-page #header .card-tu-van-1 {
-  width: 470px;
+  width: 400px;
   height: auto;
-  font-family: "Circular-Medium";
 }
 .tu-van-page #header .card-tu-van-2 {
-  width: 540px;
+  width: 500px;
   height: auto;
-  font-family: "Circular-Medium";
 }
 .tu-van-page #header .ribbon-1 {
   display: flex;
