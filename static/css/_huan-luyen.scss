@@ -52,10 +52,53 @@
                 top: 200px;
                 left: 15px;
             }
-            .owl-carousel .animate__fadeInRight .w-85 {
-                animation: rotateIn;
+            .owl-carousel .animate__fadeInRight .animateFlip {
+                animation: flipInY;
                 animation-duration: 2s;
+                animation-delay: .4s;
             }
+
+            .wrapper-slide-image {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .dong {
+                    display: flex;
+                    justify-content: space-around;
+                    flex: 1 1 100%;
+                    margin-bottom: 8px;
+                    height: 246px;
+                    .trong1 {
+                        width: 266px;
+                    }
+                    .image1, .image2, .image3 {
+                        width: 246px;
+                        margin-right: 8px;
+                    }
+                    .trong2 {
+                        width: 317px;
+                    }
+                }
+            }
+            .wrapper-slide-image-1, .wrapper-slide-image-2, .wrapper-slide-image-3, .wrapper-slide-image-4 {
+                .dong2 {
+                    .trong1 {
+                        width: 522px;
+                    }
+                    .trong2 {
+                        width: 62px;
+                    }
+                }
+                .dong3 {
+                    .trong1 {
+                        width: 1032px;
+                    }
+                    .trong2 {
+                        width: 62px;
+                    }
+                }
+            }
+
             .banner-text {
                 position: absolute;
                 left: 0;

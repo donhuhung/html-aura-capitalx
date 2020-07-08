@@ -531,7 +531,8 @@ ul {
   text-align: right;
 }
 #footer .logo-cover img {
-  width: 308px;
+  width: 310px;
+  padding-top: 15px;
 }
 #footer .email-subscribe {
   border: 0;
@@ -1109,9 +1110,44 @@ ul {
   top: 200px;
   left: 15px;
 }
-.huan-luyen-page #header #banner-header .owl-carousel .animate__fadeInRight .w-85 {
-  animation: rotateIn;
+.huan-luyen-page #header #banner-header .owl-carousel .animate__fadeInRight .animateFlip {
+  animation: flipInY;
   animation-duration: 2s;
+  animation-delay: 0.4s;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image .dong {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 100%;
+  margin-bottom: 8px;
+  height: 246px;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image .dong .trong1 {
+  width: 266px;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image .dong .image1, .huan-luyen-page #header #banner-header .wrapper-slide-image .dong .image2, .huan-luyen-page #header #banner-header .wrapper-slide-image .dong .image3 {
+  width: 246px;
+  margin-right: 8px;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image .dong .trong2 {
+  width: 317px;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image-1 .dong2 .trong1, .huan-luyen-page #header #banner-header .wrapper-slide-image-2 .dong2 .trong1, .huan-luyen-page #header #banner-header .wrapper-slide-image-3 .dong2 .trong1, .huan-luyen-page #header #banner-header .wrapper-slide-image-4 .dong2 .trong1 {
+  width: 522px;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image-1 .dong2 .trong2, .huan-luyen-page #header #banner-header .wrapper-slide-image-2 .dong2 .trong2, .huan-luyen-page #header #banner-header .wrapper-slide-image-3 .dong2 .trong2, .huan-luyen-page #header #banner-header .wrapper-slide-image-4 .dong2 .trong2 {
+  width: 62px;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image-1 .dong3 .trong1, .huan-luyen-page #header #banner-header .wrapper-slide-image-2 .dong3 .trong1, .huan-luyen-page #header #banner-header .wrapper-slide-image-3 .dong3 .trong1, .huan-luyen-page #header #banner-header .wrapper-slide-image-4 .dong3 .trong1 {
+  width: 1032px;
+}
+.huan-luyen-page #header #banner-header .wrapper-slide-image-1 .dong3 .trong2, .huan-luyen-page #header #banner-header .wrapper-slide-image-2 .dong3 .trong2, .huan-luyen-page #header #banner-header .wrapper-slide-image-3 .dong3 .trong2, .huan-luyen-page #header #banner-header .wrapper-slide-image-4 .dong3 .trong2 {
+  width: 62px;
 }
 .huan-luyen-page #header #banner-header .banner-text {
   position: absolute;
