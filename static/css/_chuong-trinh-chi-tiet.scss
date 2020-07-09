@@ -10,7 +10,7 @@
             top: 0px;
             left: 0px;
             width: 246px;
-            height: 680px;
+            height: 785px;
             opacity: .9;
             padding-top: 30px;
             padding-left: 30px;
@@ -18,7 +18,7 @@
                 position: absolute;
                 bottom: 30px;
                 left: 20px;
-                font-size: 34px;
+                font-size: 40px;
                 color: #fff;
                 padding-right: 20px;
             }
@@ -27,10 +27,12 @@
 
     #content {
         input {
+            font-family: $font_family_Corsa_Grotesk_VN_Bold;
             border: 0;
             color: #000;
             width: 100%;
             padding: 15px 5px;
+            font-size: 11px;
         }
 
         input:focus {
@@ -40,6 +42,10 @@
 
         input[type=radio] {
             display: inline-block;
+        }
+
+        label {
+            font-family: $font_family_Corsa_Grotesk_VN_Bold;
         }
 
         .book-btn {
@@ -63,6 +69,7 @@
                 padding: 20px;
                 background: #3a6cf1;
                 color: #fff;
+                font-size: 16px;
             }
             .box-below-cover {
                 display: flex;
@@ -73,6 +80,12 @@
                     text-align: right;
                     * {
                         margin: 0;
+                    }
+                    h5 {
+                        font-size: 16px;
+                    }
+                    p {
+                        font-size: 14px;
                     }
                 }
                 .circle {

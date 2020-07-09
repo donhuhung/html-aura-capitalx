@@ -6,6 +6,9 @@
                 width: 95%;
             }
         }
+        h1 {
+            font-size: 100px;
+        }
     }
 
     #content {
@@ -25,6 +28,14 @@
                 }
                 .part-right {
                     width: 50%;
+                    .step {
+                        .step-name {
+                            font-size: 14px;
+                        }
+                    }
+                    h3 {
+                        font-size: 40px;
+                    }
                 }
             }
         }
@@ -34,6 +45,14 @@
                 .part-left {
                     width: 50%;
                     margin-left: auto;
+                    .step {
+                        .step-name {
+                            font-size: 14px;
+                        }
+                    }
+                    h3 {
+                        font-size: 40px;
+                    }
                 }
                 .part-right {
                     display: flex;
