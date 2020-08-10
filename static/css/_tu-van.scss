@@ -37,11 +37,12 @@
             overflow-x: hidden;
             white-space: nowrap;
             .text {
-                font-size: 73px;
+                font-size: 65px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                transform: scaleX(1.3);
+				margin-left: -50px;
+				padding-top: 10px;
             }
             #maindiv{
                 overflow: hidden;

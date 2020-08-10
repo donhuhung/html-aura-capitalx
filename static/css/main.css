@@ -633,7 +633,8 @@ ul {
   justify-content: center;
   align-items: center;
   transform: scaleX(1.6);
-  padding-top: 15px;
+  padding-top: 17px;
+  margin-left: -100px;
 }
 .home-page #header .ribbon-1 .custom-text {
   color: #fff;
@@ -1587,11 +1588,12 @@ ul {
   white-space: nowrap;
 }
 .tu-van-page #header .ribbon-1 .text {
-  font-size: 73px;
+  font-size: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: scaleX(1.3);
+  margin-left: -50px;
+  padding-top: 10px;
 }
 .tu-van-page #header .ribbon-1 #maindiv {
   overflow: hidden;
